@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: aliceblue;
+    padding: 20px;
+}
+input{
+    height: 70px;
+    align-content: center;
+    background-color: rgb(100, 130, 130);
+    width: 100%;
+    font-size: 15px;
+}
+.buttons-container{
+    background-color: rgb(19, 86, 87);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+button{
+    padding: 10px 12px;
+    border: none;
+    border-radius: 12px;
+    background-color:rgb(33, 186, 186);
+}
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
